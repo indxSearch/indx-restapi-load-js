@@ -1,0 +1,47 @@
+html, body {
+font-family: "lig", sans-serif;
+background-color: white;
+margin: 0px;
+-webkit-font-smoothing: antialiased;
+overscroll-behavior-y: none;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  html, body {
+      background-color: #0F0F0F;
+      color: #efefef;
+  }
+}
+
+@font-face {
+  font-family: reg;
+  src: url('/fonts/reg.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: lig;
+  src: url('/fonts/lig.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: interreg;
+  src: url('/fonts/Inter-Regular.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: intermed;
+  src: url('/fonts/Inter-Medium.woff2');
+  font-display: swap;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  background: #a1a1a1;
+}
+
+::selection {
+  background: #a1a1a1;
+}
